@@ -34,7 +34,7 @@ export const ListHeader = ({
               source={{ uri: 'https://via.placeholder.com/40' }}
               style={styles.avatarImage}
             />
-            <Text style={styles.avatarText}>Hello codewithlari</Text>
+            <Text style={styles.avatarText}>POS</Text>
           </View>
         </View>
         <View style={styles.headerRight}>
@@ -64,12 +64,12 @@ export const ListHeader = ({
           </TouchableOpacity>
         </View>
       </View>
-      <View style={styles.heroContainer}>
+      {/* <View style={styles.heroContainer}>
         <Image
           source={require('../../assets/images/hero.png')}
           style={styles.heroImage}
         />
-      </View>
+      </View> */}
       <View style={styles.categoriesContainer}>
         <Text style={styles.sectionTitle}>Categories</Text>
         <FlatList
@@ -87,7 +87,7 @@ export const ListHeader = ({
           )}
           keyExtractor={item => item.name}
           horizontal
-          showsHorizontalScrollIndicator={false}
+          //showsHorizontalScrollIndicator={false}
         />
       </View>
     </View>

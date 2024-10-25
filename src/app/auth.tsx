@@ -64,9 +64,6 @@ export default function Auth() {
 
   return (
     <ImageBackground
-      source={{
-        uri: 'https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      }}
       style={styles.backgroundImage}
     >
       <View style={styles.overlay} />
