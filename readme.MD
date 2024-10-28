@@ -1,7 +1,3 @@
-# Ultimate Gadgets Mobile App
-
-Welcome to the Ultimate Gadgets Mobile App! This React Native application, built with Expo, Zustand, and Supabase, is a complete gadgets-selling platform. This README will guide you through setting up the mobile application, running it locally, and understanding its structure.
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -15,14 +11,7 @@ Before you begin, ensure you have the following installed:
 
 Follow these steps to set up and run the mobile application:
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/laribright/gadgets-app-react-native.git
-   cd gadgets-app-react-native
-   ```
-
-2. **Install Dependencies:**
+1.  **Install Dependencies:**
 
    ```bash
    npm install
@@ -48,6 +37,3 @@ Follow these steps to set up and run the mobile application:
 
 Make sure to properly configure your environment variables by referring to the `.env.example` file. This file contains example values and instructions on what needs to be filled in.
 
-## Course Video
-
-Watch the full course on YouTube: [Fullstack Gadgets App: React Native Expo & NextJs Admin](https://youtu.be/26opRFPU0a8)
